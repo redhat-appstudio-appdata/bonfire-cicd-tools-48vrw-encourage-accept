@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: cicd-tools
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rhtap-migration-tenant/bonfire-cicd-tools/cicd-tools@sha256:83a0d4ebc9a6b441c541bf366882ad58e4bdc2b5191cde55ada7e175e9896d11
+        name: container-image
+        resources: {}
+status: {}
