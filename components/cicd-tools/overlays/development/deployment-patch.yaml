@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtap-migration-tenant/bonfire-cicd-tools/cicd-tools@sha256:c5ccfb1edda2c65a3b678564d9a31ec14f1b4d24a4b848c3a6628d3c126fc561
+      - image: quay.io/redhat-user-workloads/rhtap-migration-tenant/bonfire-cicd-tools/cicd-tools@sha256:83a0d4ebc9a6b441c541bf366882ad58e4bdc2b5191cde55ada7e175e9896d11
         name: container-image
         resources: {}
 status: {}
