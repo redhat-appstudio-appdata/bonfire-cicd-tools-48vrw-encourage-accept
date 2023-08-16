@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: cicd-tools
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtap-migration-tenant/bonfire-cicd-tools/cicd-tools@sha256:8a7641b7a82a87d7bd5b3a592761f5c8bff8a5df222ab0d1d13d9f683025258e
+      - image: quay.io/redhat-user-workloads/rhtap-migration-tenant/bonfire-cicd-tools/cicd-tools@sha256:b3780ee283cbc8c707b63da625627a1f4ee22d2eef95be3f3e81b1e0e3dee13f
         imagePullPolicy: Always
         name: container-image
         ports:
